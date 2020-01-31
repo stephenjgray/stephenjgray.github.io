@@ -1,25 +1,50 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import {
+  Root,
+  Sidebar,
+  Content,
+  CollapseBtn,
+  CollapseIcon
+} from "@mui-treasury/layout";
+import fixedLayoutPreset from "@mui-treasury/layout/presets/fixed";
+
+import NavContent from "./components/NavContent";
+import NavHeader from "./components/NavHeader";
+
+import cvData from "./assets/cv.json";
+import Main from "./components/Main";
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Root config={fixedLayoutPreset}>
+      {({ sidebarStyles }) => (
+        <>
+          <CssBaseline />
+          <Content>
+            <Main data={cvData} />
+          </Content>
+          <Sidebar style={{ backgroundColor: '#fafafa'}}>
+            {({ collapsed }) => (
+              <>
+                <NavHeader
+                  style={{ overflowX: 'hidden' }}
+                  data={{ profile: cvData.cv.profile, collapsed: collapsed }}
+                />
+                <div className={sidebarStyles.container}>
+                  <NavContent style={{ overflowX: 'hidden' }} 
+                  data={{ collapsed: collapsed }} />
+                </div>
+                <CollapseBtn className={sidebarStyles.collapseBtn}>
+                  <CollapseIcon />
+                </CollapseBtn>
+              </>
+            )}
+          </Sidebar>
+        </>
+      )}
+    </Root>
   );
 }
 
