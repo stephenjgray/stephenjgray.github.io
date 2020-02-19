@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.2669f1a9.chunk.css",
-    "main.js": "/static/js/main.ea6293dc.chunk.js",
-    "main.js.map": "/static/js/main.ea6293dc.chunk.js.map",
+    "main.js": "/static/js/main.d927934b.chunk.js",
+    "main.js.map": "/static/js/main.d927934b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c3619568.js",
     "runtime-main.js.map": "/static/js/runtime-main.c3619568.js.map",
-    "static/js/2.3900e8cf.chunk.js": "/static/js/2.3900e8cf.chunk.js",
-    "static/js/2.3900e8cf.chunk.js.map": "/static/js/2.3900e8cf.chunk.js.map",
+    "static/js/2.e55c0b40.chunk.js": "/static/js/2.e55c0b40.chunk.js",
+    "static/js/2.e55c0b40.chunk.js.map": "/static/js/2.e55c0b40.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2ca0ba14ebfc85f750b4ecf99f026b08.js": "/precache-manifest.2ca0ba14ebfc85f750b4ecf99f026b08.js",
+    "precache-manifest.1cd5c66a13c16c21c34e027478a93f62.js": "/precache-manifest.1cd5c66a13c16c21c34e027478a93f62.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.2669f1a9.chunk.css.map": "/static/css/main.2669f1a9.chunk.css.map",
-    "static/js/2.3900e8cf.chunk.js.LICENSE": "/static/js/2.3900e8cf.chunk.js.LICENSE",
+    "static/js/2.e55c0b40.chunk.js.LICENSE": "/static/js/2.e55c0b40.chunk.js.LICENSE",
+    "static/media/Stephen J Gray - February 2020.pdf": "/static/media/Stephen J Gray - February 2020.8a5ca491.pdf",
     "static/media/max-nelson-Se9ufo2dO_g-unsplash2.jpg": "/static/media/max-nelson-Se9ufo2dO_g-unsplash2.097ddaba.jpg",
     "static/media/steve.png": "/static/media/steve.894e5681.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c3619568.js",
-    "static/js/2.3900e8cf.chunk.js",
+    "static/js/2.e55c0b40.chunk.js",
     "static/css/main.2669f1a9.chunk.css",
-    "static/js/main.ea6293dc.chunk.js"
+    "static/js/main.d927934b.chunk.js"
   ]
 }
